@@ -10,7 +10,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "test": "elm-test && elm-verify-examples --run-tests"
+    "test": "elm-verify-examples --run-tests && elm-test"
   },
   "author": "REPLACEME",
   "license": "BSD-3-Clause"
