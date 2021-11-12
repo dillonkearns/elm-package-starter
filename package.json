@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "REPLACEME",
   "devDependencies": {
-    "elm-review": "^2.3.3",
-    "elm-test": "^0.19.1-revision4",
-    "elm-tooling": "^1.0.2",
-    "elm-verify-examples": "^5.0.0",
-    "prettier": "^2.2.1"
+    "elm-review": "2.6.1",
+    "elm-test": "latest-0.19.1",
+    "elm-tooling": "1.6.0",
+    "elm-verify-examples": "5.2.0",
+    "prettier": "2.4.1"
   },
   "scripts": {
     "test": "elm-verify-examples --run-tests && elm-test",
