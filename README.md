@@ -1,4 +1,4 @@
-# `replaceme` [![Build Status](https://github.com/replaceme/replaceme/workflows/CI/badge.svg)](https://github.com/replaceme/replaceme/actions?query=branch%3Amain)
+# `replaceme` [![Build Status](https://github.com/REPLACEME-AUTHOR-SLASH-REPO/workflows/CI/badge.svg)](https://github.com/REPLACEME-AUTHOR-SLASH-REPO/actions?query=branch%3Amain)
 
 ## What this repo includes
 
