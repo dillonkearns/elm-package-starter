@@ -69,3 +69,10 @@ config =
     , Docs.ReviewAtDocs.rule
     , Docs.UpToDateReadmeLinks.rule
     ]
+        |> List.map
+            (\rule ->
+                rule
+                    |> Review.Rule.ignoreErrorsForDirectories
+                        [ "tests/VerifyExamples" -- this is a generated folder
+                        ]
+            )
