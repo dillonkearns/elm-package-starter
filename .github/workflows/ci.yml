@@ -61,11 +61,11 @@ jobs:
       #   run: npx --no-install prettier --check .
       - name: Build elm docs
         run: npx --no-install elm make --docs docs.json
-      # - name: Elm Publish
-      #   uses: dillonkearns/elm-publish-action@1.0.1
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     path-to-elm: ./node_modules/.bin/elm
+      - name: Elm Publish
+        uses: dillonkearns/elm-publish-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-elm: ./node_modules/.bin/elm
       # - run: npm run build
       # - id: npm-publish
       #   if: github.ref == 'refs/heads/main'
