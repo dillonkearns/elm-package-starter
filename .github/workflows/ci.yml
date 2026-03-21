@@ -57,7 +57,7 @@ jobs:
       - name: Build elm docs
         run: npx --no-install elm make --docs docs.json
       - name: Elm Publish
-        uses: dillonkearns/elm-publish-action@v1
+        uses: dillonkearns/elm-publish-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-elm: ./node_modules/.bin/elm
